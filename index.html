@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang ="pt-br">
+
+  <!--CONFIGURAÇÕES-->
+  <head>
+    <!--ESPECIAL-->
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./assets/img/bird 1.svg" type="image/x-icon" />
+    <title>Ken-te-ti</title>
+    <link rel="stylesheet" href="./assets/css/reset.css"/> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">  
+
+    
+    
+    <link href="./assets/css/style.css"rel="stylesheet" type="text/css" />
+    
+  </head>
+
+
+  <!--CORPO-->
+  <body>
+
+    <div class="container">
+
+    <!--CABEÇALHO-->
+    <header class="cabecalho">
+      <!--IMAGEM LOGO-->
+      <figure class="cabecalho__logo">
+        <img src="./assets/img/bird 1.svg" alt="Logo Ken-Te-Vi">
+        <figcaption hidden> Logo Ken-Te-Vi </figcaption>
+      </figure>  
+
+      <!--MENU NAVEGAÇÃO-->
+      <nav class="cabecalho__menuNavevagacao">
+        <!-- LITA DE LINK-->
+        <ul class="cabecalho__menuLista">
+          <li class="cabecalho__menuItem"> 
+            <img src="./assets/img/Home.png" alt="">
+            <a class="cabecalho__menuItem_pagina" href ="">Página Inicial</a>
+          </li>
+
+          <li class="cabecalho__menuItem"> 
+            <img src="./assets/img/Hashtag.png" alt="">
+            <a class="cabecalho__menuItem_b" href ="">Explorar</a>
+          </li>
+
+          <li class="cabecalho__menuItem"> 
+            <img src="./assets/img/Notification.png" alt="">
+            <a class="cabecalho__menuItem_b" href ="">Notificações</a>
+          </li>
+
+          <li class="cabecalho__menuItem"> 
+            <img src="./assets/img/Group.png" alt="">
+            <a class="cabecalho__menuItem_b" href ="">Mensagens</a>
+          </li>
+
+          <li class="cabecalho__menuItem"> 
+            <img src="./assets/img/Group (1).png" alt="">
+            <a class="cabecalho__menuItem_b" href ="">Itens Salvos</a>
+          </li>
+
+          <li class="cabecalho__menuItem"> 
+            <img src="./assets/img/Group (2).png" alt="">
+            <a class="cabecalho__menuItem_b" href ="">Listas</a>
+          </li>
+
+          <li class="cabecalho__menuItem"> 
+            <img src="./assets/img/Imagem2.jpg" alt="">
+            <a class="cabecalho__menuItem_b" href ="">Perfil</a>
+          </li>
+
+          <li class="cabecalho__menuItem"> 
+            <img src="./assets/img/Group (3).png" alt="">
+            <a class="cabecalho__menuItem_b" href ="">Mais</a>
+          </li>
+
+        </ul>  
+
+      </nav>  
+      
+
+    </header>
+
+
+    <!--CONTEÚDO PRINCIPAL-->
+    <main class="conteudoPrincipal">
+
+      <h3 class="conteudoPrincipal__titulo">Home</h3>
+      <!--FORMULÁRIO-->
+      <form action="#" class="conteudoPrincipal__formulario">
+        <textarea name="textoTweet" placeholder="O que está acontecendo?"></textarea>
+        <button type="submit">Tweetar</button>
+      </form>
+
+      <!--FEED DE NOTÍCIAS-->
+      <section class="conteudoPrincipal__Feed">
+
+         <!--LISTA DE NOTÍCIAS-->
+        <ul class="conteudoPrincipal__listaTweets">
+            <li class="conteudoPrincipal__tweet">
+              <!--IMAGEM DO USUÁRIO-->
+              <img class="tweet__fotoPerfil"src="./assets/img/Imagem2.jpg" alt="Paola">
+
+              <!--CAIXA DE INFORMAÇÃO DO USUÁRIO-->
+              <div class="tweet__conteudo">
+                <h2>Paola</h2>
+                <img class="tweet__fotoaceitar"src="./assets/img/aceitar.png" alt="Paola">
+                <span class= "tweet__conteudo__span">@paola.n.rodrigues - 10s</span>
+                <p>Mais de 1 Milhão de vagas! Artigo da Mckinsey aponta que, até 2030, o Brasil terá um gargalo de 1 mi. profissionais de tecnologia. É hora de se preparar... &#128640 &#128640<span class= "tweet__conteudo__hast" >#VouSerDev #DoZeroAoCodigo</span>
+
+                </p>
+              </div>
+            </li>
+        </ul>
+
+         <ul class="conteudoPrincipal__listaTweets">
+            <li class="conteudoPrincipal__tweet">
+              <!--IMAGEM DO USUÁRIO-->
+              <img class="tweet__fotoPerfil"src="./assets/img/ProfilePic (1).png" alt="Maria">
+
+              <!--CAIXA DE INFORMAÇÃO DO USUÁRIO-->
+              <div class="tweet__conteudo">
+                <h2>Maria</h2>
+                <span class= "tweet__conteudo__span">@mariakenzie - 14s</span>
+                <p> Maratona de Programação | 3ª Edição &#128064<span class= "tweet__conteudo__hast" >#likethis</span>
+                </p>
+              </div>
+            </li>
+        </ul>
+
+         <ul class="conteudoPrincipal__listaTweets">
+            <li class="conteudoPrincipal__tweet">
+              <!--IMAGEM DO USUÁRIO-->
+              <img class="tweet__fotoPerfil"src="./assets/img/ProfilePic (2).png" alt="Hudson">
+
+              <!--CAIXA DE INFORMAÇÃO DO USUÁRIO-->
+              <div class="tweet__conteudo">
+                <h2>Hudson</h2>
+                <span class= "tweet__conteudo__span">@hudsonkenzie- 16s</span>
+                <p> 
+                                   
+                  	
+                  	
+                  &#127759; Mercado de tecnologia tem déficit 24 mil profissionais por ano (e só aumenta)
+                  IBGE aponta que 29,8% dos jovens brasileiros estão sem emprego &#128526<span class= "tweet__conteudo__hast" >#Dev #Codigo #programacao </span>
+
+                </p>
+              </div>
+            </li>
+        </ul>
+
+        
+
+
+
+      </section>
+
+
+    </main>  
+
+
+
+
+    
+
+
+    
+    </div>
+
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+  </body>
+
+
+  
+</html>
